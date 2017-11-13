@@ -45,3 +45,33 @@ describe("helloworld", () => {
 })
  
  ```
+ 
+ 
+ # Vanilla
+ 
+**Install deps**
+
+```
+$ npm i jasmine-core karma karma-chrome-launcher karma-jasmine --save-dev
+```
+
+
+**configure karma**
+```
+$ karma start my.conf.js
+```
+
+**example of test file**
+```
+describe("helloworld", ()=> {
+ it("nothing", ()=> {
+   var radio = { $emit: function () {}};
+   spyOn(radio, "$emit");
+   radio.$emit("foo");
+   expect(radio.$emit).toHaveBeenCalledWith('foo');
+ })
+})
+
+```
+
+ 
