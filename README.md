@@ -50,6 +50,8 @@ describe("helloworld", () => {
  
  # Vanilla
  
+ Setup for testing vanilla javascript.
+ 
 **Install deps**
 
 ```
