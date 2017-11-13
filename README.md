@@ -1,5 +1,6 @@
 # TDD
-Tdd configuration 
+
+Cheatsheet for setting up testing in different JS enviroments.
 
 
 
