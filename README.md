@@ -57,6 +57,9 @@ $ npm i jasmine-core karma karma-chrome-launcher karma-jasmine --save-dev
 
 
 **configure karma**
+
+[reference](http://karma-runner.github.io/1.0/intro/configuration.html)
+
 ```
 $ karma start my.conf.js
 ```
