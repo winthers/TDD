@@ -58,8 +58,14 @@ $ npm i jasmine-core karma karma-chrome-launcher karma-jasmine --save-dev
 
 **configure karma**
 
-[reference](http://karma-runner.github.io/1.0/intro/configuration.html)
+[karma configuration](http://karma-runner.github.io/1.0/intro/configuration.html)
 
+```
+$ karma init my.conf.js
+```
+
+
+**run tests**
 ```
 $ karma start my.conf.js
 ```
