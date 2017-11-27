@@ -18,7 +18,7 @@ $ npm i chai mocha sinon sinon-chai --save-dev
 **package.json** *looking for testfiles with .spec.js extension in the src directory*
 ```
  "scripts": {
-    "test": "./node_modules/.bin/mocha src/**/*.spec.js --reporter spec"
+    "test": "./node_modules/.bin/mocha ./src/**/*.spec.js --reporter spec"
   },
  ```
  
