@@ -52,6 +52,10 @@ describe("helloworld", () => {
  
  Setup for testing vanilla javascript.
  
+ requires karma cli to be installed.
+ 
+> npm install -g karma-cli
+ 
 **Install deps**
 
 ```
